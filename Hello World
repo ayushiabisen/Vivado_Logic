@@ -1,0 +1,13 @@
+`timescale 1ns/1ns​
+
+module helloWorld;​
+
+  initial begin​
+
+    $display(“Hello world”);​
+
+    $finish; ​
+
+  end​
+
+endmodule
